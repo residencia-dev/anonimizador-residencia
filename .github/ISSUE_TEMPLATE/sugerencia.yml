@@ -1,0 +1,22 @@
+name: Sugerencia de mejora
+description: Propón una mejora para el Anonimizador de la Residencia.
+title: "[Sugerencia] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las sugerencias son públicas. Usa ejemplos ficticios y evita incluir datos personales, capturas o documentos de residentes.
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: ¿Qué te gustaría mejorar?
+      description: Explica qué cambio te ayudaría a usar la aplicación.
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: ¿En qué situación lo necesitas?
+      description: Puedes indicar la versión de la aplicación y si trabajas con Word, PDF o Markdown.
+    validations:
+      required: false
